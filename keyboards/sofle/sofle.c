@@ -87,7 +87,7 @@ void print_status_narrow(void) {
             oled_write_P(PSTR("Raise"), false);
             break;
         case 3:
-            oled_write_P(PSTR("Alt"), false);
+            oled_write_ln_P(PSTR("Alt"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
